@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Microphones" />
+    <meta name="author" content="Thomas Sankara" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Microphones</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header class="header flex items-center justify-between p-5 xl:px-0">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="logo.png" alt="My microphones" />
+          </a>
+        </div>
+
+        <nav>
+          <ul class="flex">
+            <li class="mx-2"><a href="#">Cameras</a></li>
+            <li><a href="#">Microphones</a></li>
+          </ul>
+        </nav>
+
+        <div class="cta hidden md:block">
+          <button class="btn-cta">Get in Touch</button>
+        </div>
+      </header>
+
+      <!-- Showcase -->
+      <section
+        class="
+          showcase
+          flex flex-col-reverse
+          md:grid
+          grid-cols-2
+          bg-black
+          md:items-center
+        "
+      >
+        <div
+          class="text text-white py-10 px-5 text-center md:text-left xl:px-20"
+        >
+          <h3 class="orange mb-10">Featured</h3>
+          <h1 class="font-bold text-4xl mb-5">Streaming mic</h1>
+          <p class="mb-5">
+            The streaming microphone, equipped with advanced noise cancellation technology, ensured that every word uttered was captured with pristine clarity
+          </p>
+          <button class="btn-showcase">Browse Microphones</button>
+        </div>
+
+        <div class="showcase-picture">
+          <img src="hero.png" alt="mic 1" class="w-full md:h-full" />
+        </div>
+      </section>
+
+      
+
+      <!-- Featured -->
+      <section class="featured px-5 py-5 xl:px-0">
+        <h3 class="font-bold text-3xl mb-5">Featured</h3>
+        <article class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+          <div class="featured__cards">
+            <img src="featured-1.png" alt="" class="w-full" />
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Camera</h4>
+            <p class="mb-5">
+				The cameras, equipped with state-of-the-art lenses and sensors, captured every detail with breathtaking precision, ensuring vivid and lifelike imagery for all your photography and videography needs.
+            </p>
+            <button class="btn-showcase">Buy Now</button>
+          </div>
+
+          <div class="featured__cards">
+            <img src="featured-2.png" alt="" class="w-full" />
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Microphone</h4>
+            <p class="mb-5">
+				The microphone, renowned for its studio-quality sound reproduction and superior noise cancellation capabilities, transformed every spoken word into a clear and immersive auditory experience, setting a new standard in audio recording.
+            </p>
+            <button class="btn-showcase">Buy Now</button>
+          </div>
+
+          <div class="featured__cards">
+            <img src="featured-3.png" alt="" class="w-full" />
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Stream Deck</h4>
+            <p class="mb-5">
+				The stream deck, with its intuitive interface and customizable buttons, provided seamless control over streaming software and enabled effortless execution of commands, enhancing the streaming experience with unparalleled efficiency and convenience.
+            </p>
+            <button class="btn-showcase">Buy Now</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- Get yours today -->
+      <section class="py-10 md:grid grid-cols-2 items-center md:px-5 xl:px-0">
+        <div>
+          <img src="get-yours.png" alt="" />
+        </div>
+
+        <div class="px-5">
+          <h3 class="font-bold text-3xl mt-5 mb-1">Get yours today</h3>
+          <p class="mb-5">
+			Immerse yourself in top-tier playback through comfortably padded earphones, ensuring an exceptional audio experience.
+          </p>
+          <button class="btn-showcase">Buy</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div
+        class="
+          footer-inner
+          flex flex-col
+          items-center
+          justify-center
+          p-5
+          text-center
+          md:flex-row md:justify-between md:p-10
+          xl:px-0
+        "
+      >
+	    
+			<footer class="bg-dark">
+				<div class="container">
+				  <div class="row text-center">
+					<div class="col">
+					 <p class="text-light pt-3">&copy; 2024
+						 All Rights Reserved</p>
+					</div>
+				  </div>
+				</div>
+			  </footer>
+  </body>
+</html>
